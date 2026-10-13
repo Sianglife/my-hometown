@@ -1,9 +1,0 @@
-header {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-header h1 {
-  color: gray;
-}
