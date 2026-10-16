@@ -4,53 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>板橋</title>
+    <title>My Hometown - 板橋</title>
 </head>
 
 <style>
-    .banner-content {
-        filter: blur(0px);
-    }
-
-    .banner-img {
-        width: 100%;
-        filter: blur(5px);
-    }
-
-    .banner {
-        text-align: center;
-        background-size: cover;
-        background-position: center;
-        color: white;
-    }
-
     #container {
-        /* display: flex;
+        display: flex;
         flex-direction: column;
-        justify-content: center; */
-        position: relative;
+        justify-content: center; 
+        min-width: 100vw;
+        min-height: 100vh;
+        /* TODO: background img with blur */
+        /* background-image: url('assets/banner.jpg'); */
     }
 
-    #banner,
-    #banner-content {
+    #banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 20px;
+        color: #7D400A;
     }
 
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: 10rem;
-    }
-
-    .card {
-        width: 10rem;
-        height: 10rem;
-        background-color: #835e5e;
-        border-radius: 0.5rem;
-        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.25);
-        margin: 0.5rem;
+    #banner h1 {
+        color: #442911;
     }
 
     img {
@@ -59,52 +38,51 @@
         object-fit: contain;
     }
 
-
-    .card-img img {
-        border-radius: 0.5rem;
+    .banner-content {
+        max-width: 600px;
+        margin-top: 20px;
+        font-size: 1rem;
+        line-height: 1.5;
+        word-break: keep-all;
     }
 
-    .card-img {
-        padding: 0.5rem;
-        padding-bottom: 0.25rem;
+    .banner-title {
+        font-size: 4rem;
+        margin: 3.5rem 0;
     }
 
-
-    .card-content {
-        text-align: center;
-        margin-bottom: 0.5rem;
+    .banner-subtitle {
+        font-size: 2rem;
+        margin: 2.5rem 0;
     }
 
-    .card-title,
-    .card-text {
-        margin: 0;
+    .banner-nav-container {
+        display: flex;
+        margin-top: 0.5rem;
+        justify-content: space-evenly;
+        color: #867A69;
     }
+
+    .banner-nav {
+        text-decoration: underline;
+        font-size: 1.5rem;
+        color: #867A69;
+    }
+
 </style>
 
 <body>
     <main id="container">
         <header id="banner">
-            <!-- <img class="banner-img" src="assets/view1.jpg" alt="view1"> -->
-            <div id="banner-content">
-                <h1>板橋</h1>
-            </div>
+            <h2 class="banner-subtitle">My Hometown</h2>
+            <h1 class="banner-title">板橋</h1>
+            <p class="banner-content">從林家花園的庭院，到板橋車站周邊的高樓，板橋的不同面貌，記錄著一座城市如何成長。這裡曾是農業聚落、河運商埠與工業發展的基地，如今則是新北市的行政與交通中心。認識板橋，可以從它的歷史開始，也可以從街道、商圈與居民的日常走進來。</p>
         </header>
 
-        <section id="spots">
-            <div class="card-container">
-                <div class="card">
-                    <div class="card-img">
-                        <img src="assets/view1.jpg" alt="view1">
-                    </div>
-                    <div class="card-content">
-                        <p class="card-title">view1</p>
-                        <p class="card-text">view1</p>
-                    </div>
-                </div>
-                <div class="card"></div>
-                <div class="card"></div>
-            </div>
-        </section>
+        <div class="banner-nav-container">
+            <a class="banner-nav" href="history.html">History</a>
+            <a class="banner-nav" href="landmark.html">Landmark</a>
+        </div>
     </main>
 </body>
 
