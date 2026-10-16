@@ -5,31 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>板橋的故事</title>
 </head>
+
+<style>
+    body {
+        background-color: #E8DDD6;
+    }
+    #navbar {
+        background-color: #7E786D;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    #navbar nav {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin: 0 1rem;
+        font-size: 1.2rem;
+    }
+
+    #navbar nav a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    #navbar h3 {
+        color: #FFFFFF;
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        color: #7D400A;
+        justify-self: center;
+        font-size: 4rem;
+        margin: 4rem 0;
+    }
+
+    section {
+        display: flex;
+        background-color: #F5F0E6;
+        flex-direction: column;
+        padding: 3rem 1rem;
+        gap: 3rem;
+    }
+
+    .sec-title {
+        color: #7D400A;
+        font-size: 2rem;
+        margin: 0;
+    }
+
+
+    .sec-content {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        font-size: 1.2rem;
+    }
+
+
+
+</style>
+
 <body>
     <!-- TODO: navbar -->
-    <nav>
+    <div id="navbar">
         <h3> 板橋 </h3>
-        <a href="index.html">Home</a>
-        <a href="history.html">History</a>
-        <a href="landmark.html">Landmark</a>
-    </nav>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="history.html" class="nav-on">History</a>
+            <a href="landmark.html">Landmark</a>
+        </nav>
+    </div>
 
     <main>
         <h1>板橋的故事</h1>
+        <section>
+            <h2 class="sec-title">早期 ● 擺接堡</h2>
+            <div class="sec-content">
+                <article>
+                    <img src="assets/view2.jpg" alt="擺接堡歷史地圖與今日行政區位置" width="400">
+                </article>
+                <article>
+                    <p>在「板橋」成為城市名稱之前，這片土地的歷史與「擺接」密切相關。早期文獻記載的擺接社，反映了漢人移民大量開墾以前的原住民族聚落。清代隨著移民、農業開墾與水圳建設，擺接逐漸成為地方聚落及行政區劃使用的名稱。</p>
 
-        <h2>早期：擺接堡</h2>
+                    <p>「擺接堡」中的「堡」是當時的地方行政區劃，不能直接理解為一座城堡，也不等同於今日的板橋區。這個歷史地名所指涉的區域，跨越了今日板橋及周邊地區。</p>
 
-        <p>在「板橋」成為城市名稱之前，這片土地的歷史與「擺接」密切相關。早期文獻記載的擺接社，反映了漢人移民大量開墾以前的原住民族聚落。清代隨著移民、農業開墾與水圳建設，擺接逐漸成為地方聚落及行政區劃使用的名稱。</p>
+                    <p>今天仍能在土城的「擺接堡路」看到這個名稱。這條道路保留了舊地名的記憶，也提醒我們：現代行政區的邊界，與早期聚落和地方生活圈並不完全相同。<a href="#reference-1">[1]</a><a href="#reference-4">[4]</a></p>
+                </article>
+            </div>
 
-        <p>「擺接堡」中的「堡」是當時的地方行政區劃，不能直接理解為一座城堡，也不等同於今日的板橋區。這個歷史地名所指涉的區域，跨越了今日板橋及周邊地區。</p>
-
-        <p>今天仍能在土城的「擺接堡路」看到這個名稱。這條道路保留了舊地名的記憶，也提醒我們：現代行政區的邊界，與早期聚落和地方生活圈並不完全相同。<a href="#reference-1">[1]</a><a href="#reference-4">[4]</a></p>
-
-        <!-- 圖片預留：擺接堡歷史地圖，搭配今日板橋、土城、中和與永和的位置；歷史邊界須依地圖史料繪製。 -->
-        <!-- ![擺接堡歷史地圖與今日行政區位置](images/baijiebao-map.jpg) -->
-        <!-- 圖片預留：土城擺接堡路路牌。 -->
-        <!-- ![保留歷史地名的擺接堡路路牌](images/baijiebao-road.jpg) -->
-
+            <!-- 圖片預留：擺接堡歷史地圖，搭配今日板橋、土城、中和與永和的位置；歷史邊界須依地圖史料繪製。 -->
+            <!-- ![擺接堡歷史地圖與今日行政區位置](images/baijiebao-map.jpg) -->
+            <!-- 圖片預留：土城擺接堡路路牌。 -->
+            <!-- ![保留歷史地名的擺接堡路路牌](images/baijiebao-road.jpg) -->
+        </section>
         <h2>清朝：林本源家族與板橋早期市街</h2>
 
         <p>板橋早期市街的發展，與林本源家族的移居有密切關係。19 世紀中葉，林家在此興建宅邸、遷居並參與地方建設，使原本以農業為主的聚落，逐漸發展出更完整的街市與商業活動。<a href="#reference-1">[1]</a><a href="#reference-2">[2]</a></p>
