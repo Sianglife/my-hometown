@@ -8,14 +8,29 @@
 </head>
 
 <style>
+    body {
+        margin: 0;
+    }
     #container {
         display: flex;
         flex-direction: column;
         justify-content: flex-start; 
         min-width: 100vw;
         min-height: 100vh;
-        /* TODO: background img with blur */
-        /* background-image: url('assets/banner.jpg'); */
+        position: relative;
+        isolation: isolate;
+        overflow: hidden;
+    }
+
+    #container::before {
+        content: '';
+        position: absolute;
+        inset: -12px;
+        z-index: -1;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('assets/banner.jpg') center / cover no-repeat;
+        filter: blur(8px);
+        pointer-events: none;
     }
 
     #banner {
@@ -25,11 +40,11 @@
         align-items: center;
         text-align: center;
         padding: 20px;
-        color: #7D400A;
+        color: #e2cab5;
     }
 
     #banner h1 {
-        color: #442911;
+        color: #e2cab5;
     }
 
     img {
@@ -66,7 +81,7 @@
     .banner-nav {
         text-decoration: underline;
         font-size: 1.5rem;
-        color: #867A69;
+        color: #c0b29f;
     }
 
 </style>
