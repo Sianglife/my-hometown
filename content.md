@@ -180,9 +180,21 @@
 9. [遠東百貨：板橋大遠百與板橋中山店資訊](https://cdn.feds.com.tw/en/54/OverSea/Detail?tab=tourist-guide)
 10. [新北市政府體育局：板橋第一運動場區](https://www.t-sports.ntpc.gov.tw/home.jsp?id=ca807903881df82f)
 11. [新北市立圖書館：總館介紹](https://www.library.ntpc.gov.tw/branch/libraryBranch/detail/8aa9646575074db0a99c641a5f029ddb?branchId=dc88121272914791be0c19deef10053b)
+12. [在殖民中遇見了文明——重繪板橋車站](https://www.peoplemedia.tw/news/159fb83f-266e-40b8-a769-89523a1a2809)
+
 
 <!-- 編輯註記：都會區競爭及耶誕城生活負擔採城市觀察角度撰寫，並非各地競爭成效的量化結論，也不代表所有居民的經驗。資料查閱日期：2026-10-13。 -->
 
 
 擺接堡圖: https://www.facebook.com/photo/?fbid=2630027523740042&set=a.463032049161964
 林家花園：由 阿道 - 自己的作品, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=185151086
+
+1970年代板橋舊車站：https://www.mobile01.com/topicdetail.php?f=455&t=6163481
+
+1998年板橋舊車站：
+https://udn.com/news/story/120910/6156929
+
+1990年代新板空拍圖：
+https://www.mobile01.com/topicdetail.php?f=455&t=6163481
+
+重繪板橋舊驛：https://www.peoplemedia.tw/news/159fb83f-266e-40b8-a769-89523a1a2809
