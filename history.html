@@ -96,6 +96,15 @@
         color: #58544d
     }
 
+    #references {
+        padding: 1rem 2rem;
+        gap: 1rem;
+    }
+
+    #references ol {
+        line-height: 2;
+    }
+
 
 
 </style>
@@ -105,14 +114,15 @@
     <div id="navbar">
         <h3> 板橋 </h3>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="history.html" class="nav-on">History</a>
+            <a href="index.html">首頁</a>
+            <a href="history.html" class="nav-on">板橋的故事</a>
             <a href="landmark.html">Landmark</a>
         </nav>
     </div>
 
     <main>
         <h1>板橋的故事</h1>
+        <!-- TODO: toc anchor with timeline -->
         <section>
             <h2 class="sec-title">早期 ● 擺接堡</h2>
             <div class="sec-content">
@@ -174,7 +184,7 @@
                 <article class="sec-article">
                     <!-- TODO: img resource copyright declaration -->
                     <img src="assets/1990_new_ban.webp" alt="1990年代的新板特區" width="400">
-                    <p>1990年代的新板特區</p>
+                    <p>1990年代開發中的新板特區</p>
                     <!-- 圖片預留：戰後工廠、街景或住宅發展照片。 -->
                     <!-- ![戰後板橋的產業與都市發展](images/banqiao-postwar.jpg) -->
                     <!-- 圖片預留：板橋與臺北市、中和、永和、三重的相對位置示意圖。 -->
@@ -222,8 +232,8 @@
             </div>
         </section>
 
-        <section aria-labelledby="references-title">
-            <h2 id="references-title">參考資料</h2>
+        <section id="references">
+            <h2 id="references-title" class="sec-title">參考資料</h2>
             <ol>
                 <li id="reference-1"><a href="https://www.banqiao.ntpc.gov.tw/home.jsp?id=8c4540120c916d8b">板橋區公所：板橋憶往（簡史）</a></li>
                 <li id="reference-2"><a href="https://www.banqiao.ntpc.gov.tw/home.jsp?id=69aaea7a71818a80">板橋區公所：人文古今</a></li>
