@@ -11,6 +11,7 @@
     body {
         margin: 0;
     }
+    
     #container {
         display: flex;
         flex-direction: column;
@@ -76,6 +77,15 @@
         margin-top: 1.5rem;
         justify-content: space-evenly;
         color: #867A69;
+    }
+
+    @media (max-width: 768px) {
+        .banner-nav-container {
+            gap: 1rem;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
     }
 
     .banner-nav {
