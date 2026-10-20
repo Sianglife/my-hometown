@@ -15,6 +15,8 @@
         background-color: #7E786D;
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
         padding: 0 1rem;
     }
 
@@ -35,9 +37,21 @@
 
     @media (max-width: 768px) {
         #navbar nav {
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
             gap: 0.5rem;
+            width: 100%;
             margin: 0.5rem 0;
+        }
+
+        #navbar nav a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1 1 auto;
+            min-height: 44px;
+            padding: 0 0.5rem;
         }
     }
 
@@ -173,7 +187,6 @@
 </style>
 
 <body>
-    <!-- TODO: navbar RWD -->
     <div id="navbar">
         <a href="index.html"><h3> 板橋 </h3></a>
         <nav>
