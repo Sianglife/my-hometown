@@ -35,7 +35,14 @@
         align-items: center;
         margin: 0 1rem;
         font-size: 1.2rem;
+        font-weight: light;
     }
+
+    
+    .nav-on {
+        font-weight: bold;
+    }
+
 
     @media (max-width: 768px) {
         #navbar nav {
@@ -200,7 +207,8 @@
         <a href="index.html"><h3> 板橋 </h3></a>
         <nav>
             <a href="index.html">首頁</a>
-            <a href="history.html" class="nav-on">板橋的故事</a>
+            <!-- nav-on will be bold -->
+            <a href="history.html" class="nav-on">板橋的故事</a> 
             <a href="landmark.html">板橋怎麼玩</a>
         </nav>
     </div>
@@ -208,13 +216,16 @@
     <main>
         <h1>板橋的故事</h1>
 
+        <!-- History sec START -->
         <section>
             <h2 class="sec-title">早期 ● 擺接堡</h2>
             <div class="sec-content">
+                <!-- Flex shirnk for 1 -->
                 <figure class="sec-img">
                     <img src="assets/bijiebao.webp" alt="擺接堡歷史地圖與今日行政區位置" width="400">
                     <figcaption>擺接堡歷史地圖與今日行政區位置 · <a href="https://www.facebook.com/photo/?fbid=2630027523740042&amp;set=a.463032049161964" target="_blank" rel="noopener noreferrer">Facebook</a></figcaption>
                 </figure>
+                <!-- Flex shirnk for 2 -->
                 <article class="sec-article">
                     <p>在「板橋」成為城市名稱之前，這片土地的歷史與「擺接」密切相關。早期文獻記載的擺接社，反映了漢人移民大量開墾以前的原住民族聚落。清代隨著移民、農業開墾與水圳建設，擺接逐漸成為地方聚落及行政區劃使用的名稱。</p>
 
@@ -228,10 +239,12 @@
         <section class="dark">
             <h2 class="sec-title">清朝：林本源家族與板橋早期市街</h2>
             <div class="sec-content">
+                <!-- Flex shirnk for 1 -->
                 <figure class="sec-img">
                     <img src="assets/lin_hall.jpg" alt="林家宅邸" width="400">
                     <figcaption>林家宅邸 · <a href="https://commons.wikimedia.org/w/index.php?curid=185151086" target="_blank" rel="noopener noreferrer">阿道</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></figcaption>
                 </figure>
+                <!-- Flex shirnk for 2 -->
                 <article class="sec-article">
                     <p>板橋早期市街的發展，與林本源家族的移居有密切關係。19 世紀中葉，林家在此興建宅邸、遷居並參與地方建設，使原本以農業為主的聚落，逐漸發展出更完整的街市與商業活動。</p>
 
@@ -245,10 +258,12 @@
         <section>
             <h2 class="sec-title">日治：鐵路建設</h2>
             <div class="sec-content">
+                <!-- Flex shirnk for 1 -->
                 <figure class="sec-img">
                     <img src="assets/banqiao_old_station.webp" alt="日治時期的板橋車站" width="400">
                     <figcaption>日治時期的板橋車站（重繪） · <a href="https://www.peoplemedia.tw/news/159fb83f-266e-40b8-a769-89523a1a2809" target="_blank" rel="noopener noreferrer">民報</a></figcaption>
                 </figure>
+                <!-- Flex shirnk for 2 -->
                 <article class="sec-article">
                     <p>日治時期，鐵路路線調整為經過板橋，改變了地方對外交通的方式。隨著河運的重要性下降，鐵路承接客貨運輸，也讓板橋成為海山地區的重要交通節點。</p>
 
@@ -262,10 +277,12 @@
         <section class="dark">
             <h2 class="sec-title">戰後：縣治、都市化與工業化</h2>
             <div class="sec-content">
+                <!-- Flex shirnk for 1 -->
                 <figure class="sec-img">
                     <img src="assets/1990_new_ban.webp" alt="1990年代的新板特區" width="400">
                     <figcaption>1990年代開發中的新板特區 · <a href="https://www.mobile01.com/topicdetail.php?f=455&amp;t=6163481" target="_blank" rel="noopener noreferrer">Mobile01</a></figcaption>
                 </figure>
+                <!-- Flex shirnk for 2 -->
                 <article class="sec-article">
                     <p>戰後，板橋由街改為鎮。1947 年，臺北縣政府設於板橋，行政中心的角色讓地方發展有了新的重心；1972 年，板橋改制為縣轄市。</p>
 
@@ -280,11 +297,14 @@
 
         <section>
             <h2 class="sec-title">升格新北市</h2>
+            <!-- this figure was stacked specially -->
             <div class="sec-content sec-content-stacked">
+                <!-- Flex shirnk for 1 -->
                 <figure class="sec-img">
                     <img src="assets/view_wide.jpg" alt="2010年板橋天際線" width="800">
                     <figcaption>2010年板橋天際線 · <a href="https://commons.wikimedia.org/w/index.php?curid=78791796" target="_blank" rel="noopener noreferrer">Heeheemalu</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></figcaption>
                 </figure>
+                <!-- Flex shirnk for 2 -->
                 <article class="sec-article">
                     <p>2010 年 12 月 25 日，臺北縣升格為新北市，板橋市改為板橋區，並延續行政中心的角色。</p>
 
@@ -302,6 +322,8 @@
                 </article>
             </div>
         </section>
+        
+        <!-- History sec END -->
 
         <section class="references">
             <h2 id="references-title" class="sec-title">參考資料</h2>
@@ -313,9 +335,7 @@
                 <li id="reference-5"><a href="https://gis.rchss.sinica.edu.tw/mapclub_20250408/" target="_blank" rel="noopener noreferrer">中央研究院人社中心地理資訊科學研究專題中心：從板橋酒廠到新板橋車站</a></li>
                 <li id="reference-6"><a href="https://www.ntpc.gov.tw/ch/home.jsp?dataserno=202512110004&amp;id=28" target="_blank" rel="noopener noreferrer">新北市政府：2025 年耶誕城演唱會交通管制說明</a></li>
             </ol>
-        </section>
-
-        
+        </section>        
     </main>
 </body>
 </html>
